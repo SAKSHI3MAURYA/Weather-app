@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Protest+Revolution&display=swap');
+
+:root{
+  --header-fonts: 'Protest Revolution';
+  --fonts:'Mulish';
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(230, 230, 169); 
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  font-size: 3rem;
+  font-family: var(--header-fonts);
+}
+.headerday{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  height: 500px;
+  color: black;
+  background-image: url('./Components/daysun.jpg');
+}
+.headernight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  height: 500px;
+  color: white;
+  background-image: url(./Components/moonnight.jpg);
+}
+
+.inputs{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  border-radius: 50px;
+  width: 100%;
+  margin:auto ;
+}
+.inputs input,button{
+  margin: 5px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.inputs button{
+  height: 28px;
+  font-size: 1.2rem;
+  background-color:cornflowerblue;
+}
+
+
+
+/* Weather.css */
+
+.weather-container {
+  font-family: var(--fonts);
+  text-align: center;
+  margin: 20px;
+}
+
+.current-weather {
+  font-family: var(--fonts);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.forecast-item {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+  
+}
+
+.forecast-temperature {
+  font-size: 18px;
+}
+
+.forecast-description {
+  color: #333;
+}
+.forecast-day{
+  background-image: url(./Components/sky\ with\ clouds.avif);
+  background-size: contain;
+  border: 1px solid;
+  border-radius: 25px;
+  margin:5px;
+  background-image:url ;
+  font-weight: bold;
+  padding:20px;
+  width: 300px;
+}
+.h2class{
+  display: block;
+  font-size: 2rem;
+}
